@@ -9,4 +9,5 @@ func _ready():
 
 
 func _on_automatic_firing_pressed():
+	GlobalVariables.automaticFiring = pressed
 	print("button pressed")
