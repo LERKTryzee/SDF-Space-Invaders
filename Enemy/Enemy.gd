@@ -5,6 +5,7 @@ var bullet = preload("res://Bullet-Enemy/Bullet-Enemy.tscn")
 
 	
 func _ready():
+	set_process(true)
 	$Area2D.connect("area_entered", self, "_colliding")
 	
 
