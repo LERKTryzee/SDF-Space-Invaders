@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Off The Grid.mp3-788827fe96dd16a244014eebaa4ed25e.mp3str"
+
+[deps]
+
+source_file="res://Audio/Off The Grid.mp3"
+dest_files=[ "res://.import/Off The Grid.mp3-788827fe96dd16a244014eebaa4ed25e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Kid_Cudi_-_Day_'N'_Nite.mp3-491db91de130ecad6eefb730d30ec657.mp3str"
+
+[deps]
+
+source_file="res://Audio/Kid_Cudi_-_Day_'N'_Nite.mp3"
+dest_files=[ "res://.import/Kid_Cudi_-_Day_'N'_Nite.mp3-491db91de130ecad6eefb730d30ec657.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
