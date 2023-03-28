@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Kid_Cudi_-_Day_N_Nite.wav-172cc832fac0e861adb0e149e818b8eb.sample"
+
+[deps]
+
+source_file="res://Failure-screen/Kid_Cudi_-_Day_N_Nite.wav"
+dest_files=[ "res://.import/Kid_Cudi_-_Day_N_Nite.wav-172cc832fac0e861adb0e149e818b8eb.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
