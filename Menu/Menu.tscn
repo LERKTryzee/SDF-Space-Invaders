@@ -118,20 +118,20 @@ texture = SubResource( 2 )
 position = Vector2( 178.397, 227.683 )
 scale = Vector2( 0.743681, 1.68352 )
 frames = SubResource( 3 )
-frame = 5
+frame = 27
 speed_scale = 1.5
 playing = true
 
 [node name="Buttons" type="VBoxContainer" parent="Layout/Main"]
 margin_left = 355.0
 margin_right = 1260.0
-margin_bottom = 640.0
+margin_bottom = 600.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="Start Game Button" type="Button" parent="Layout/Main/Buttons"]
 margin_right = 905.0
-margin_bottom = 210.0
+margin_bottom = 197.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 3 )
@@ -139,9 +139,9 @@ text = "Start Game"
 script = ExtResource( 4 )
 
 [node name="Options" type="Button" parent="Layout/Main/Buttons"]
-margin_top = 214.0
+margin_top = 201.0
 margin_right = 905.0
-margin_bottom = 424.0
+margin_bottom = 398.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 3 )
@@ -152,9 +152,9 @@ __meta__ = {
 }
 
 [node name="Quit" type="Button" parent="Layout/Main/Buttons"]
-margin_top = 428.0
+margin_top = 402.0
 margin_right = 905.0
-margin_bottom = 640.0
+margin_bottom = 600.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 3 )
@@ -174,5 +174,6 @@ text = "Copyright Lucasfilms LTD."
 stream = ExtResource( 26 )
 pitch_scale = 1.3
 autoplay = true
+
 [connection signal="pressed" from="Layout/Main/Buttons/Start Game Button" to="Layout/Main/Buttons/Start Game Button" method="_on_Start_Game_Button_pressed"]
 [connection signal="pressed" from="Layout/Main/Buttons/Options" to="Layout/Main/Buttons/Options" method="_on_Options_pressed"]
