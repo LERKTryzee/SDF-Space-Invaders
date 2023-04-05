@@ -38,4 +38,11 @@ gantt
     Project Overview:05-04-23, 1d
     Project Plan: 05-04-23, 24-04-23
 
+
+    Section Implementation
+    UI:05-04-23, 1d
+    Barriers:05-04-23, 1d
+    Testing:05-04-23, 07-06-23
+    Lives:05-04-23, 1d
+    The Vault:05-04-23, 1d
 ```
