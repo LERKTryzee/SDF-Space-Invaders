@@ -69,9 +69,6 @@ margin_bottom = -408.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource( 6 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="965287137d49b3f29e6ff9c4d0e5a3f07b-01-kanye-west-ye2xrsquarew190" type="Sprite" parent="."]
 position = Vector2( 639.414, 360.375 )
@@ -118,20 +115,20 @@ texture = SubResource( 2 )
 position = Vector2( 178.397, 227.683 )
 scale = Vector2( 0.743681, 1.68352 )
 frames = SubResource( 3 )
-frame = 27
+frame = 25
 speed_scale = 1.5
 playing = true
 
 [node name="Buttons" type="VBoxContainer" parent="Layout/Main"]
 margin_left = 355.0
 margin_right = 1260.0
-margin_bottom = 600.0
+margin_bottom = 690.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="Start Game Button" type="Button" parent="Layout/Main/Buttons"]
 margin_right = 905.0
-margin_bottom = 197.0
+margin_bottom = 227.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 3 )
@@ -139,9 +136,9 @@ text = "Start Game"
 script = ExtResource( 4 )
 
 [node name="Options" type="Button" parent="Layout/Main/Buttons"]
-margin_top = 201.0
+margin_top = 231.0
 margin_right = 905.0
-margin_bottom = 398.0
+margin_bottom = 458.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 3 )
@@ -152,9 +149,9 @@ __meta__ = {
 }
 
 [node name="Quit" type="Button" parent="Layout/Main/Buttons"]
-margin_top = 402.0
+margin_top = 462.0
 margin_right = 905.0
-margin_bottom = 600.0
+margin_bottom = 690.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 3 )

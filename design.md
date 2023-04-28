@@ -1,4 +1,4 @@
-# Project Overview
+ # Project Overview
 
 The game is a space invaders clone but with updated textures. The theme is Kanye West vs Adidas and Skete.
 
@@ -40,9 +40,9 @@ gantt
 
 
     Section Implementation
-    UI:05-04-23, 1d
-    Barriers:05-04-23, 1d
+    UI:01-05-23, 04-06-23
+    Barriers:14-05-23, 4d
     Testing:05-04-23, 07-06-23
-    Lives:05-04-23, 1d
-    The Vault:05-04-23, 1d
+    Lives:26-04-23, 1d
+    The Vault:08-05-23, 3d
 ```
