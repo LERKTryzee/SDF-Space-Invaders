@@ -1,6 +1,7 @@
 extends KinematicBody2D
 
 var speed = 500
+var bullet
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -19,3 +20,4 @@ func _physics_process(delta):
 			queue_free()
 			GlobalVariables.enemyBulletInstanceCount -= 1
 			print("Enemy Bullets: ", GlobalVariables.enemyBulletInstanceCount)
+

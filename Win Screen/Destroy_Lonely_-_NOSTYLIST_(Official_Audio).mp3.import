@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Destroy_Lonely_-_NOSTYLIST_(Official_Audio).mp3-e0e3a966e7f7e39674d3092c18be580a.mp3str"
+
+[deps]
+
+source_file="res://Win Screen/Destroy_Lonely_-_NOSTYLIST_(Official_Audio).mp3"
+dest_files=[ "res://.import/Destroy_Lonely_-_NOSTYLIST_(Official_Audio).mp3-e0e3a966e7f7e39674d3092c18be580a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

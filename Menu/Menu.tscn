@@ -115,7 +115,7 @@ texture = SubResource( 2 )
 position = Vector2( 178.397, 227.683 )
 scale = Vector2( 0.743681, 1.68352 )
 frames = SubResource( 3 )
-frame = 27
+frame = 30
 speed_scale = 1.5
 playing = true
 
@@ -163,9 +163,9 @@ margin_right = 1260.0
 margin_bottom = 792.0
 
 [node name="Label" type="Label" parent="Layout/Credits"]
-margin_right = 164.0
+margin_right = 135.0
 margin_bottom = 14.0
-text = "Copyright Lucasfilms LTD."
+text = "Copyright YEEZY GAP."
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 26 )
