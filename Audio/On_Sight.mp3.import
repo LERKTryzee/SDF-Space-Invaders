@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/On_Sight.mp3-251f9866f1b9bd7bcbe80d8df582197f.mp3str"
+
+[deps]
+
+source_file="res://Audio/On_Sight.mp3"
+dest_files=[ "res://.import/On_Sight.mp3-251f9866f1b9bd7bcbe80d8df582197f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
