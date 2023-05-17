@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Vine_boom_sound_effect.mp3-fc383e7c7b538fd01a92f06ffbf695d9.mp3str"
+
+[deps]
+
+source_file="res://Bullet-Enemy/Vine_boom_sound_effect.mp3"
+dest_files=[ "res://.import/Vine_boom_sound_effect.mp3-fc383e7c7b538fd01a92f06ffbf695d9.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

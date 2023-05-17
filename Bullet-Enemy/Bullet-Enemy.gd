@@ -17,7 +17,10 @@ func _physics_process(delta):
 			pass
 			#collidedObject.get_collider().queue_free() #Don't kill the enemies.
 		else:
-			queue_free()
-			GlobalVariables.enemyBulletInstanceCount -= 1
-			print("Enemy Bullets: ", GlobalVariables.enemyBulletInstanceCount)
+				GlobalVariables.enemyBulletInstanceCount -= 1
+				print("Enemy Bullets: ", GlobalVariables.enemyBulletInstanceCount)
+				if "Player" in collidedObject.collider.name:
+					collidedObject.get_collider().queue_free()
+					get_tree().change_scene("res://Failure-screen/Failure.tscn")
+				queue_free()
 

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Franklin_Ringtone_from_GTA_V.mp3-13e7c25d63e09c03f717656a68b4874e.mp3str"
+
+[deps]
+
+source_file="res://Audio/Franklin_Ringtone_from_GTA_V.mp3"
+dest_files=[ "res://.import/Franklin_Ringtone_from_GTA_V.mp3-13e7c25d63e09c03f717656a68b4874e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,6 +1,6 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://Audio/On_Sight.mp3" type="AudioStream" id=1]
+[ext_resource path="res://Audio/Franklin_Ringtone_from_GTA_V.mp3" type="AudioStream" id=1]
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Enemy/Enemy.tscn" type="PackedScene" id=3]
 [ext_resource path="res://MainGame/MainGame.gd" type="Script" id=4]
