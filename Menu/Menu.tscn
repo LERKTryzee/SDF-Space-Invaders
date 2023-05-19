@@ -1,7 +1,7 @@
-[gd_scene load_steps=48 format=2]
+[gd_scene load_steps=50 format=2]
 
 [ext_resource path="res://Images/Gif/Kanye-West--0003.jpg" type="Texture" id=1]
-[ext_resource path="res://Menu/PaletteMosaic-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://MainGame/Heart Breaking Bad.otf" type="DynamicFontData" id=2]
 [ext_resource path="res://Menu/buttonFont.tres" type="DynamicFont" id=3]
 [ext_resource path="res://Menu/Start Game Button.gd" type="Script" id=4]
 [ext_resource path="res://Menu/Options.gd" type="Script" id=5]
@@ -44,9 +44,11 @@
 [ext_resource path="res://Images/Gif/Kanye-West--0011.jpg" type="Texture" id=42]
 [ext_resource path="res://Images/965287137d49b3f29e6ff9c4d0e5a3f07b-01-kanye-west-ye.2x.rsquare.w190.webp" type="Texture" id=43]
 [ext_resource path="res://Menu/Quit.gd" type="Script" id=44]
+[ext_resource path="res://MainGame/Futura Bold.otf" type="DynamicFontData" id=45]
 
-[sub_resource type="DynamicFont" id=1]
-size = 55
+[sub_resource type="DynamicFont" id=4]
+resource_local_to_scene = true
+size = 62
 font_data = ExtResource( 2 )
 
 [sub_resource type="StreamTexture" id=2]
@@ -60,6 +62,9 @@ animations = [ {
 "name": "default",
 "speed": 20.0
 } ]
+
+[sub_resource type="DynamicFont" id=5]
+font_data = ExtResource( 45 )
 
 [node name="MenuMenu" type="Control"]
 anchor_right = 1.0
@@ -86,57 +91,58 @@ size_flags_vertical = 3
 
 [node name="Title" type="HBoxContainer" parent="Layout"]
 margin_right = 1260.0
-margin_bottom = 80.0
+margin_bottom = 65.0
 size_flags_horizontal = 3
 alignment = 1
 
 [node name="Label" type="Label" parent="Layout/Title"]
 margin_right = 1260.0
-margin_bottom = 80.0
+margin_bottom = 65.0
 size_flags_horizontal = 3
-custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 4 )
 text = "Kanye West VS Adidas and Skete"
 align = 1
 
 [node name="Main" type="HBoxContainer" parent="Layout"]
-margin_top = 84.0
+margin_top = 69.0
 margin_right = 1260.0
 margin_bottom = 774.0
 size_flags_vertical = 3
 
 [node name="Screenshot" type="TextureRect" parent="Layout/Main"]
 margin_right = 351.0
-margin_bottom = 690.0
+margin_bottom = 705.0
 texture = SubResource( 2 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Layout/Main"]
 position = Vector2( 178.397, 227.683 )
 scale = Vector2( 0.743681, 1.68352 )
 frames = SubResource( 3 )
-frame = 23
+frame = 12
 speed_scale = 1.5
 playing = true
 
 [node name="Buttons" type="VBoxContainer" parent="Layout/Main"]
 margin_left = 355.0
 margin_right = 1260.0
-margin_bottom = 690.0
+margin_bottom = 705.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="Start Game Button" type="Button" parent="Layout/Main/Buttons"]
 margin_right = 905.0
-margin_bottom = 227.0
+margin_bottom = 232.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_fonts/font = ExtResource( 3 )
+custom_fonts/font = SubResource( 5 )
 text = "Start Game"
 script = ExtResource( 4 )
 
 [node name="Options" type="Button" parent="Layout/Main/Buttons"]
-margin_top = 231.0
+margin_top = 236.0
 margin_right = 905.0
-margin_bottom = 458.0
+margin_bottom = 468.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 3 )
@@ -147,9 +153,9 @@ __meta__ = {
 }
 
 [node name="Quit" type="Button" parent="Layout/Main/Buttons"]
-margin_top = 462.0
+margin_top = 472.0
 margin_right = 905.0
-margin_bottom = 690.0
+margin_bottom = 705.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 3 )

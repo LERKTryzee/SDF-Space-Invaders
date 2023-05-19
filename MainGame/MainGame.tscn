@@ -15,10 +15,10 @@ extents = Vector2( 20.9622, 380.576 )
 extents = Vector2( 662.058, 10 )
 
 [node name="SpaceInvaders" type="Control"]
-margin_left = -0.768188
-margin_top = 1.23187
-margin_right = 1279.23
-margin_bottom = 721.232
+margin_left = 91.0
+margin_top = -25.0
+margin_right = 1371.0
+margin_bottom = 695.0
 script = ExtResource( 4 )
 countdownMax = 30
 
