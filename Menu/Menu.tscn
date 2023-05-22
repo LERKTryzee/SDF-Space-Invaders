@@ -119,7 +119,7 @@ texture = SubResource( 2 )
 position = Vector2( 178.397, 227.683 )
 scale = Vector2( 0.743681, 1.68352 )
 frames = SubResource( 3 )
-frame = 12
+frame = 8
 speed_scale = 1.5
 playing = true
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Audio/Franklin_Ringtone_from_GTA_V.mp3" type="AudioStream" id=1]
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://Enemy/Enemies.gd" type="Script" id=5]
 [ext_resource path="res://ExampleCode.gd" type="Script" id=6]
 [ext_resource path="res://DONDA-Vest-removebg-preview (1).png" type="Texture" id=7]
+[ext_resource path="res://KinematicBody2D.tscn" type="PackedScene" id=8]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 20.9622, 380.576 )
@@ -23,10 +24,10 @@ script = ExtResource( 4 )
 countdownMax = 30
 
 [node name="TextureRect" type="TextureRect" parent="."]
-margin_left = 514.768
-margin_top = -23.2319
-margin_right = 2222.77
-margin_bottom = 409.768
+margin_left = 1008.0
+margin_top = -19.0
+margin_right = 2716.0
+margin_bottom = 414.0
 rect_scale = Vector2( 0.15, 0.15 )
 texture = ExtResource( 7 )
 expand = true
@@ -167,29 +168,29 @@ position = Vector2( -425.917, 294.883 )
 [node name="Enemy24" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( -317.146, 294.815 )
 
-[node name="Enemy25" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 68.864, 403.728 )
+[node name="enemy 2" type="Node2D" parent="."]
+script = ExtResource( 5 )
 
-[node name="Enemy26" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 175.33, 404.428 )
+[node name="KinematicBody2D" parent="enemy 2" groups=["enemy"] instance=ExtResource( 8 )]
+position = Vector2( 289, 416 )
 
-[node name="Enemy27" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -150.058, 404.497 )
+[node name="KinematicBody2D2" parent="enemy 2" groups=["enemy"] instance=ExtResource( 8 )]
+position = Vector2( 1004, 415 )
 
-[node name="Enemy28" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -41.288, 404.428 )
+[node name="KinematicBody2D3" parent="enemy 2" groups=["enemy"] instance=ExtResource( 8 )]
+position = Vector2( 880, 415 )
 
-[node name="Enemy29" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -364.372, 404.497 )
+[node name="KinematicBody2D4" parent="enemy 2" groups=["enemy"] instance=ExtResource( 8 )]
+position = Vector2( 758, 415 )
 
-[node name="Enemy30" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -255.601, 404.428 )
+[node name="KinematicBody2D5" parent="enemy 2" groups=["enemy"] instance=ExtResource( 8 )]
+position = Vector2( 640, 415 )
 
-[node name="Enemy31" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -579.789, 404.497 )
+[node name="KinematicBody2D6" parent="enemy 2" groups=["enemy"] instance=ExtResource( 8 )]
+position = Vector2( 523, 415 )
 
-[node name="Enemy32" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -472.219, 404.428 )
+[node name="KinematicBody2D7" parent="enemy 2" groups=["enemy"] instance=ExtResource( 8 )]
+position = Vector2( 406, 415 )
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 1 )
