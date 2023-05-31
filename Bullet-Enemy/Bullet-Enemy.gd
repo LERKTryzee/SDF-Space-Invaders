@@ -18,8 +18,7 @@ func _physics_process(delta):
 			#collidedObject.get_collider().queue_free() #Don't kill the enemies.
 		else:
 				GlobalVariables.enemyBulletInstanceCount -= 1
-				print("Enemy Bullets: ", GlobalVariables.enemyBulletInstanceCount)
 				if "Player" in collidedObject.collider.name:
-					collidedObject.collider().reduceHealth()
+					collidedObject.collider.reduceHealth()
 				queue_free()
 

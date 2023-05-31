@@ -1,6 +1,7 @@
 extends KinematicBody2D
 
 var bullet = preload("res://Bullet-Enemy/Bullet-Enemy.tscn")
+export (int) var health = 1
 
 
 	
@@ -19,6 +20,7 @@ func _colliding(area):
 
 
 func _process(delta):
+
 #	while (true):
 	var rng = RandomNumberGenerator.new()
 	rng.randomize()
@@ -30,3 +32,7 @@ func _process(delta):
 		bulletInstance.position = Vector2(global_position.x, global_position.y+20)
 		get_tree().get_root().add_child(bulletInstance)
 		
+func reduceHealth():
+	health -= 1
+	if health == 0:
+		queue_free()

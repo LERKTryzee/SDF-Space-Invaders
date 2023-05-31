@@ -14,3 +14,4 @@ var scoringInformation = {
 	"highScorePlayersName" : "Winner"
 }
 var saveFile = "user://save.dat"
+var Player
