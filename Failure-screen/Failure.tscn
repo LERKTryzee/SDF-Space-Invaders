@@ -1,7 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://MainGame/BurbankBigCondensed-Bold.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Failure-screen/Kid_Cudi_-_Day_N_Nite.wav" type="AudioStream" id=2]
+[ext_resource path="res://MainGame/Futura Bold.otf" type="DynamicFontData" id=3]
+[ext_resource path="res://Failure-screen/Button.gd" type="Script" id=4]
 
 [sub_resource type="StreamTexture" id=1]
 flags = 4
@@ -11,12 +13,12 @@ load_path = "res://.import/Ff6QtBZX0AQw-Zu.jpeg-8525c4b338deba6e39e4c1e10e02f208
 size = 132
 font_data = ExtResource( 1 )
 
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 3 )
+
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="TextureRect" type="TextureRect" parent="."]
 margin_left = -1.0
@@ -42,3 +44,14 @@ text = "you suck"
 stream = ExtResource( 2 )
 pitch_scale = 1.37
 autoplay = true
+
+[node name="Button" type="Button" parent="."]
+margin_left = 531.045
+margin_top = 546.904
+margin_right = 752.045
+margin_bottom = 610.904
+custom_fonts/font = SubResource( 3 )
+text = "Retry"
+script = ExtResource( 4 )
+
+[connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]

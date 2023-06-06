@@ -46,7 +46,7 @@
 [ext_resource path="res://Menu/Quit.gd" type="Script" id=44]
 [ext_resource path="res://MainGame/Futura Bold.otf" type="DynamicFontData" id=45]
 
-[sub_resource type="DynamicFont" id=4]
+[sub_resource type="DynamicFont" id=1]
 resource_local_to_scene = true
 size = 62
 font_data = ExtResource( 2 )
@@ -63,7 +63,7 @@ animations = [ {
 "speed": 20.0
 } ]
 
-[sub_resource type="DynamicFont" id=5]
+[sub_resource type="DynamicFont" id=4]
 font_data = ExtResource( 45 )
 
 [node name="MenuMenu" type="Control"]
@@ -100,7 +100,7 @@ margin_right = 1260.0
 margin_bottom = 65.0
 size_flags_horizontal = 3
 custom_colors/font_color = Color( 0, 0, 0, 1 )
-custom_fonts/font = SubResource( 4 )
+custom_fonts/font = SubResource( 1 )
 text = "Kanye West VS Adidas and Skete"
 align = 1
 
@@ -116,10 +116,10 @@ margin_bottom = 705.0
 texture = SubResource( 2 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Layout/Main"]
-position = Vector2( 178.397, 227.683 )
+position = Vector2( 176.89, 221.654 )
 scale = Vector2( 0.743681, 1.68352 )
 frames = SubResource( 3 )
-frame = 25
+frame = 23
 speed_scale = 1.5
 playing = true
 
@@ -135,7 +135,7 @@ margin_right = 905.0
 margin_bottom = 232.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_fonts/font = SubResource( 5 )
+custom_fonts/font = SubResource( 4 )
 text = "Start Game"
 script = ExtResource( 4 )
 

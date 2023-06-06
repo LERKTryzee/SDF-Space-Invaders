@@ -22,3 +22,4 @@ func _physics_process(delta):
 					collidedObject.collider.reduceHealth()
 				queue_free()
 
+
