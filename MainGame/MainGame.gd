@@ -9,7 +9,6 @@ var currentTimer
 
 func _ready():
 	currentTimer = countdownMax
-	load_hearts()
 
 	while (currentTimer > 0):
 		yield(get_tree().create_timer(1.0), "timeout")
@@ -26,6 +25,4 @@ func _process(delta):
 	if get_tree().get_nodes_in_group("enemy").size() == 0:
 		get_tree().change_scene("res://Win Screen/Win Screen.tscn")
 
-func load_hearts():
-	$TextureRect.rect_size.x = GlobalVariables.lives * 53
-	
+

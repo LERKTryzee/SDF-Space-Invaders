@@ -20,6 +20,8 @@ func _physics_process(delta):
 				GlobalVariables.enemyBulletInstanceCount -= 1
 				if "Player" in collidedObject.collider.name:
 					collidedObject.collider.reduceHealth()
+				if "Vault" in collidedObject.collider.name:
+					collidedObject.collider.reduceHealth()
 				queue_free()
 
 
