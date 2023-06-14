@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var movement_speed = 200
 var bulletSource = preload("res://Bullet/Bullet.tscn")
-var health = 3
+export (int) var health = 3
 
 func _ready():
 	set_process(true)

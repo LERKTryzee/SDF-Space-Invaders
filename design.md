@@ -19,9 +19,28 @@ There will be barriers added like the real space invaders that makes it harder t
 
 
 # Behaviour - User Journey
+```mermaid
+journey
+  title User Journey
+    section Main Menu
+        Press Options button: 5: player
+        Turn on Automatic firing (Optional): 5: player
+        Press Start Game: 5: player
+    section Main Game
+        Move Around: 5: player
+        Shoot enemies: 5: player
+    section If timer runs out
+        Send to Lose Screen: 5: ui
+        Click retry Button: 5: player
+    section If Player loses health
+        remove heart from live counter: 5: ui
+        Send to Lose Screen: 5: ui
+        Click Retry: 5: player
+    section If Vault destroyed
+    send to lose screen: 5: ui
+    Click Retry: 5: player
 
-
-
+```
 # Planning Diagram - Project Plan
 
 ```mermaid
